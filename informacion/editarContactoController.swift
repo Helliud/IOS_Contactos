@@ -11,6 +11,7 @@ import UIKit
 
 class editarContactoController : UIViewController{
     var contacto : Contacto?
+    var callBackActualizarTabla : (() -> Void)?
     
     @IBOutlet weak var txtNombre: UITextField!
     @IBOutlet weak var txtTelefono: UITextField!
@@ -22,7 +23,10 @@ class editarContactoController : UIViewController{
     
     //OJO, EL BOTON ES UN ACTION
     @IBAction func doTapGuardar(_ sender: Any) {
+        contacto?.nombre = txtNombre.text
+        contacto?.telefono = txtTelefono.text
         
+        callBackActualizarTabla!()
     }
     
 }
