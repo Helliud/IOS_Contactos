@@ -51,11 +51,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         if segue.identifier == "goToEditar"{
             let destino = segue.destination as? editarContactoController
             destino?.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
             destino?.callBackActualizarTabla = recargarTable
         }
+        
+        if segue.identifier == "goToAdd"{
+            let destino = segue.destination as? crearContactoController
+            
+            contactos.append(Contacto(nombre: "", telefono: "", direcion: "Enrique Segoviano", correo: "aaaaa@gmail.com", foto: "1"))
+            
+            destino?.contacto = contactos[contactos.count-1]
+            
+            destino?.callBackAgregarTabla = recargarTable
+            
+        }
+        
     }
+    
+    
+    
 }
 

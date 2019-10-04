@@ -27,6 +27,7 @@ class editarContactoController : UIViewController{
         contacto?.telefono = txtTelefono.text
         
         callBackActualizarTabla!()
+            self.navigationController?.popViewController(animated: true)
     }
     
 }

@@ -17,6 +17,7 @@
 		3D508E832343EA1E00168EC7 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D508E822343EA1E00168EC7 /* Contacto.swift */; };
 		3D508E852343EC5A00168EC7 /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D508E842343EC5A00168EC7 /* CeldaContactoController.swift */; };
 		3D508E872343F73C00168EC7 /* editarContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D508E862343F73C00168EC7 /* editarContactoController.swift */; };
+		3D91638E2347E12500C7091E /* crearContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91638D2347E12500C7091E /* crearContactoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3D508E822343EA1E00168EC7 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 		3D508E842343EC5A00168EC7 /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
 		3D508E862343F73C00168EC7 /* editarContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editarContactoController.swift; sourceTree = "<group>"; };
+		3D91638D2347E12500C7091E /* crearContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crearContactoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3D508E822343EA1E00168EC7 /* Contacto.swift */,
 				3D508E842343EC5A00168EC7 /* CeldaContactoController.swift */,
 				3D508E862343F73C00168EC7 /* editarContactoController.swift */,
+				3D91638D2347E12500C7091E /* crearContactoController.swift */,
 			);
 			path = informacion;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				3D508E872343F73C00168EC7 /* editarContactoController.swift in Sources */,
 				3D508E572343E9E800168EC7 /* ViewController.swift in Sources */,
 				3D508E552343E9E800168EC7 /* AppDelegate.swift in Sources */,
+				3D91638E2347E12500C7091E /* crearContactoController.swift in Sources */,
 				3D508E832343EA1E00168EC7 /* Contacto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
